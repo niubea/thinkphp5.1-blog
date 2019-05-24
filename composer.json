@@ -1,0 +1,37 @@
+{
+    "name": "libo/thinkphp5.1-blog",
+    "description": "ThinkPHP5.1-Blog",
+    "type": "project",
+    "keywords": [
+        "thinkphp5.1",
+        "blog",
+        "tp5",
+        "libo"
+    ],
+    "homepage": "http://www.pollylee.cn/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "libo",
+            "email": "libo@usa.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "topthink/framework": "5.1.*",
+        "topthink/think-captcha": "^2.0",
+        "phpmailer/phpmailer": "^6.0",
+        "qiniu/php-sdk": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application"
+        }
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
