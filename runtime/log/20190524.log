@@ -1,0 +1,374 @@
+---------------------------------------------------------------
+[2019-05-24T17:33:50+08:00] 172.17.0.1 GET blog.pollylee.cn/install.php
+[运行时间：2.468335s] [吞吐率：0.41req/s] [内存消耗：2,653.67kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=o2k95kkn0u0q0m0rqehkkvanbn; Hm_lvt_f37400f14441ebc0c3645d104244b130=1558681787; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1558681800; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1558681841; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1558681843',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'blog.pollylee.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/application/install/view/index/index.html [ array (
+  0 => 'thisModule',
+  1 => 'thisController',
+  2 => 'thisClass',
+  3 => 'thisRequest',
+) ]
+---------------------------------------------------------------
+[2019-05-24T17:33:58+08:00] 172.17.0.1 GET blog.pollylee.cn/install.php?step=2
+[运行时间：2.097532s] [吞吐率：0.48req/s] [内存消耗：2,663.02kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=o2k95kkn0u0q0m0rqehkkvanbn; Hm_lvt_f37400f14441ebc0c3645d104244b130=1558681787; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1558681800; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1558681841; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1558681843',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://blog.pollylee.cn/install.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'blog.pollylee.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'step' => '2',
+)
+[ info ] [ VIEW ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/application/install/view/index/step2.html [ array (
+  0 => 'thisModule',
+  1 => 'thisController',
+  2 => 'thisClass',
+  3 => 'thisRequest',
+  4 => 'data',
+) ]
+---------------------------------------------------------------
+[2019-05-24T17:34:03+08:00] 172.17.0.1 GET blog.pollylee.cn/install.php
+[运行时间：2.870108s] [吞吐率：0.35req/s] [内存消耗：2,450.48kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=o2k95kkn0u0q0m0rqehkkvanbn; Hm_lvt_f37400f14441ebc0c3645d104244b130=1558681787; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1558681800; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1558681841; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1558681843',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'blog.pollylee.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/application/install/view/index/index.html [ array (
+  0 => 'thisModule',
+  1 => 'thisController',
+  2 => 'thisClass',
+  3 => 'thisRequest',
+) ]
+---------------------------------------------------------------
+[2019-05-24T17:34:50+08:00] 172.17.0.1 GET blog.pollylee.cn/install.php
+[运行时间：2.914699s] [吞吐率：0.34req/s] [内存消耗：2,653.86kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=o2k95kkn0u0q0m0rqehkkvanbn; Hm_lvt_f37400f14441ebc0c3645d104244b130=1558681787; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1558681800; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1558681841; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1558681843',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'blog.pollylee.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/application/install/view/index/index.html [ array (
+  0 => 'thisModule',
+  1 => 'thisController',
+  2 => 'thisClass',
+  3 => 'thisRequest',
+) ]
+---------------------------------------------------------------
+[2019-05-24T17:37:21+08:00] 172.17.0.1 GET blog.pollylee.cn/install.php
+[运行时间：3.474003s] [吞吐率：0.29req/s] [内存消耗：2,653.86kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=o2k95kkn0u0q0m0rqehkkvanbn; Hm_lvt_f37400f14441ebc0c3645d104244b130=1558681787; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1558681800; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1558681841; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1558681843',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'blog.pollylee.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/application/install/view/index/index.html [ array (
+  0 => 'thisModule',
+  1 => 'thisController',
+  2 => 'thisClass',
+  3 => 'thisRequest',
+) ]
+---------------------------------------------------------------
+[2019-05-24T17:40:26+08:00] 172.17.0.1 GET cztdoc.admin.pollylee.cn/install.php
+[运行时间：1.843579s] [吞吐率：0.54req/s] [内存消耗：2,107.02kb] [文件加载：70]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'cztdoc.admin.pollylee.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/application/install/view/index/index.html [ array (
+  0 => 'thisModule',
+  1 => 'thisController',
+  2 => 'thisClass',
+  3 => 'thisRequest',
+) ]
+---------------------------------------------------------------
+[2019-05-24T17:40:58+08:00] 172.17.0.1 GET cztdoc.admin.pollylee.cn/install.php?step=2
+[运行时间：2.727126s] [吞吐率：0.37req/s] [内存消耗：2,255.92kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=00ehp3u1gmpr3dc4vv3e03q34m',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://cztdoc.admin.pollylee.cn/install.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'cztdoc.admin.pollylee.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'step' => '2',
+)
+[ info ] [ VIEW ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/application/install/view/index/step2.html [ array (
+  0 => 'thisModule',
+  1 => 'thisController',
+  2 => 'thisClass',
+  3 => 'thisRequest',
+  4 => 'data',
+) ]
+---------------------------------------------------------------
+[2019-05-24T17:44:00+08:00] 172.17.0.1 GET cztdoc.admin.pollylee.cn/install.php?step=3
+[运行时间：2.191806s] [吞吐率：0.46req/s] [内存消耗：2,266.76kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=00ehp3u1gmpr3dc4vv3e03q34m',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://cztdoc.admin.pollylee.cn/install.php?step=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'cztdoc.admin.pollylee.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'step' => '3',
+)
+[ info ] [ VIEW ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/application/install/view/index/step3.html [ array (
+  0 => 'thisModule',
+  1 => 'thisController',
+  2 => 'thisClass',
+  3 => 'thisRequest',
+  4 => 'install_dir',
+) ]
+---------------------------------------------------------------
+[2019-05-24T17:44:30+08:00] 172.17.0.1 POST cztdoc.admin.pollylee.cn/install.php?step=4
+[运行时间：2.130396s] [吞吐率：0.47req/s] [内存消耗：2,995.66kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=00ehp3u1gmpr3dc4vv3e03q34m',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://cztdoc.admin.pollylee.cn/install.php?step=3',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://cztdoc.admin.pollylee.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '129',
+  'connection' => 'keep-alive',
+  'host' => 'cztdoc.admin.pollylee.cn',
+)
+[ info ] [ PARAM ] array (
+  'step' => '4',
+  'hostname' => '47.92.131.96',
+  'hostport' => '3306',
+  'database' => 'cztdoc.pollylee.cn',
+  'username' => 'cztdoc.pollylee.cn',
+  'password' => 'rFwiRC5NpX@3tx#z',
+  'cover' => '0',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-05-24T17:44:38+08:00] 172.17.0.1 POST cztdoc.admin.pollylee.cn/install.php?step=4
+[运行时间：2.219956s] [吞吐率：0.45req/s] [内存消耗：2,958.20kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=00ehp3u1gmpr3dc4vv3e03q34m',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://cztdoc.admin.pollylee.cn/install.php?step=3',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://cztdoc.admin.pollylee.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '129',
+  'connection' => 'keep-alive',
+  'host' => 'cztdoc.admin.pollylee.cn',
+)
+[ info ] [ PARAM ] array (
+  'step' => '4',
+  'hostname' => '47.92.131.96',
+  'hostport' => '3306',
+  'database' => 'cztdoc.pollylee.cn',
+  'username' => 'cztdoc.pollylee.cn',
+  'password' => 'rFwiRC5NpX@3tx#z',
+  'cover' => '1',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-05-24T17:45:29+08:00] 172.17.0.1 POST cztdoc.admin.pollylee.cn/install.php?step=5
+[运行时间：32.624568s] [吞吐率：0.03req/s] [内存消耗：3,204.05kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'install'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=00ehp3u1gmpr3dc4vv3e03q34m',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://cztdoc.admin.pollylee.cn/install.php?step=3',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://cztdoc.admin.pollylee.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'host' => 'cztdoc.admin.pollylee.cn',
+)
+[ info ] [ PARAM ] array (
+  'step' => '5',
+  'admin_url' => 'console',
+  'username' => 'admin',
+  'password' => 'a153387979',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-05-24T17:45:37+08:00] 172.17.0.1 GET cztdoc.admin.pollylee.cn/console.php
+[运行时间：3.991251s] [吞吐率：0.25req/s] [内存消耗：3,396.25kb] [文件加载：89]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=00ehp3u1gmpr3dc4vv3e03q34m',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://cztdoc.admin.pollylee.cn/install.php?step=3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'cztdoc.admin.pollylee.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2019-05-24T17:45:43+08:00] 172.17.0.1 GET cztdoc.admin.pollylee.cn/console.php/login.html
+[运行时间：3.222462s] [吞吐率：0.31req/s] [内存消耗：2,678.51kb] [文件加载：85]
+[ info ] [ LANG ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'AccessData=eyJhY2Nlc3NfdG9rZW4iOiJMajlYQlozRXEyNWRKd0N2R3NRaDQ1VWlheE90TnlZciIsImV4cGlyZXNfdGltZSI6MTU1ODYxMTY1NiwicmVmcmVzaF90b2tlbiI6IkZVQ3Fqa3BzVlF0NG8xWWY5NkRaMm55MG1lZ0lkeGFFIiwicmVmcmVzaF9leHBpcmVzX3RpbWUiOjE1NjExOTY0NTYsImNsaWVudCI6eyJpZCI6MTAwMDAwMSwiYWNjb3VudCI6IjEzNzYwNzIxMTUzIiwibmFtZSI6IlBvbGx5Iiwibmlja25hbWUiOiLmnY7pgI3pgaUiLCJhdmF0YXIiOiJodHRwOi8vY2hld3UtcHJpdmF0ZS5vc3MtY24taGFuZ3pob3UuYWxpeXVuY3MuY29tL2Y0YjZiMTAzMmZiZTg3ZjAvYVhpd2RaYkFlUy5qcGciLCJwaG9uZSI6IjEzNzYwNzIxMTUzIiwiYmFsYW5jZSI6IjgsMjQ2LjAzIiwiaW50ZWdyYWwiOjgzNjkwLCJib251cyI6IjIsMzM4LjE4IiwicmVnX3RpbWUiOjE1NTA0MDQwMDAsImdlbmRlciI6MSwiYmlydGgiOiIxOTg4LTA4LTA4IiwiY291bnRyeSI6Ijg2IiwicHJvdmluY2UiOiI0NCIsImNpdHkiOiIwMSIsImFyZWEiOiIxNSIsImFkZHJlc3MiOiLmlrDnjqXoirHlm63liKvlooVB5Yy6Iiwic2lnbiI6IuaIkeeahOS4quaAp%2BetvuWQjSIsInZpcF9ncmFkZSI6MTAsInN0YXR1cyI6Im9ubGluZSIsImxvZ2luX3R5cGUiOiIxIiwibm9uY2UiOiJXNkQyRFBOQVJEQ0pEWUtBIiwidGltZXN0YW1wIjoiMTU1ODYwNDQ1NSIsInZlcnNpb24iOm51bGwsInVzZXJuYW1lIjoi5p2O6YCN6YGlIn19; Authorization=NIUBEA.COM%20MTM3NjA3MjExNTM6TGo5WEJaM0VxMjVkSndDdkdzUWg0NVVpYXhPdE55WXI6MTAwMDAwMQ%3D%3D; PHPSESSID=00ehp3u1gmpr3dc4vv3e03q34m',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://cztdoc.admin.pollylee.cn/console.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'cztdoc.admin.pollylee.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/www.pollylee.cn/web/cztdoc.pollylee.cn/application/admin/view/login/index.html [ array (
+  0 => 'SysInfo',
+  1 => 'BlogInfo',
+  2 => 'is_mobile',
+  3 => 'website',
+  4 => 'thisModule',
+  5 => 'thisController',
+  6 => 'thisClass',
+  7 => 'thisRequest',
+  8 => 'title',
+  9 => 'data',
+) ]

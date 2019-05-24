@@ -286,7 +286,7 @@ CREATE TABLE `blog_notice` (
 -- Records of blog_notice
 -- ----------------------------
 INSERT INTO `blog_notice` VALUES ('1', '本站内容仅供学习和参阅，不做任何商业用途！', null, 'http://www.baidu.com', '_blank', '0', null, '0', '2018-08-10 21:25:23', '0', null, null);
-INSERT INTO `blog_notice` VALUES ('2', 'tpAdmin测试版上线，欢迎访问！', null, 'admin/blog.slider/index', '_blank', '0', '', '0', '2018-08-10 21:25:44', '0', null, null);
+INSERT INTO `blog_notice` VALUES ('2', 'liboBlog测试版上线，欢迎访问！', null, 'admin/blog.slider/index', '_blank', '0', '', '0', '2018-08-10 21:25:44', '0', null, null);
 INSERT INTO `blog_notice` VALUES ('3', 'PHP社区测试版上线，欢迎访问内容如有侵犯，请立即联系管理员删除！', null, 'admin/blog.slider/index', '_blank', '0', '', '0', '2018-08-10 21:26:31', '0', null, null);
 
 -- ----------------------------
@@ -427,12 +427,12 @@ CREATE TABLE `download_config` (
 -- ----------------------------
 -- Records of download_config
 -- ----------------------------
-INSERT INTO `download_config` VALUES ('1', 'DownloadUrl', 'https://static.pollylee.cn/tpAdmin_V1.0.3.zip', '下载地址', '2018-08-04 19:32:17', '0');
-INSERT INTO `download_config` VALUES ('2', 'GitHub', 'https://github.com/libo/tpAdmin', 'GitHub地址', '2018-08-04 19:33:48', '0');
-INSERT INTO `download_config` VALUES ('3', 'Gitee', 'https://gitee.com/libo/tpAdmin', '码云地址', '2018-08-04 19:34:40', '0');
+INSERT INTO `download_config` VALUES ('1', 'DownloadUrl', 'https://static.pollylee.cn/liboBlog_V1.0.3.zip', '下载地址', '2018-08-04 19:32:17', '0');
+INSERT INTO `download_config` VALUES ('2', 'GitHub', 'https://github.com/libo/liboBlog', 'GitHub地址', '2018-08-04 19:33:48', '0');
+INSERT INTO `download_config` VALUES ('3', 'Gitee', 'https://gitee.com/libo/liboBlog', '码云地址', '2018-08-04 19:34:40', '0');
 INSERT INTO `download_config` VALUES ('4', 'QQUrl', 'https://jq.qq.com/?_wv=1027&k=5IHJawE', 'QQ链接', '2018-08-04 19:35:04', '0');
 INSERT INTO `download_config` VALUES ('5', 'Version', 'V1.0.3', '版本信息', '2018-08-04 19:36:41', '0');
-INSERT INTO `download_config` VALUES ('6', 'WelcomeWord', 'tpAdmin权限控制系统', '欢迎词', '2018-08-04 20:04:01', '0');
+INSERT INTO `download_config` VALUES ('6', 'WelcomeWord', 'liboBlog权限控制系统', '欢迎词', '2018-08-04 20:04:01', '0');
 INSERT INTO `download_config` VALUES ('7', 'Introduce', '关键词：ThinkPHP5.1、layui、layuicms。', null, '2018-08-04 20:13:17', '0');
 INSERT INTO `download_config` VALUES ('8', 'Describe1', '此项目旨在学习后台权限控制的实现，项目更适合初学者来进行学习。项目还是并不是特别完善，只实现基本的权限控制！', null, '2018-08-04 20:36:32', '0');
 INSERT INTO `download_config` VALUES ('9', 'Describe2', '项目还在持续完善中，尽请期待！项目中有使用或者借鉴优秀开源代码，感谢ThinkPHP团队、Layui团队、Layuicms作者、thinkadmin作者、layui-xtree作者！', null, '2018-08-04 20:36:36', '0');
@@ -554,7 +554,7 @@ CREATE TABLE `system_config` (
 -- ----------------------------
 -- Records of system_config
 -- ----------------------------
-INSERT INTO `system_config` VALUES ('1', 'ManageName', 'basic', 'string', 'tpAdmin管理系统', '后台名称', '0', '2018-07-17 17:27:27', '0', '2018-07-17 22:10:33', null);
+INSERT INTO `system_config` VALUES ('1', 'ManageName', 'basic', 'string', 'liboBlog管理系统', '后台名称', '0', '2018-07-17 17:27:27', '0', '2018-07-17 22:10:33', null);
 INSERT INTO `system_config` VALUES ('2', 'Beian', 'basic', 'string', '粤ICP备19015591号-1', '备案号', '4', '2018-07-17 17:27:27', '0', '2018-07-17 22:10:39', null);
 INSERT INTO `system_config` VALUES ('18', 'FooterName', 'basic', 'string', 'Copyright © 2018-2019 www.pollylee.cn', '底部网站标识', '5', '2018-07-17 17:27:27', '0', '2018-07-17 18:40:16', null);
 INSERT INTO `system_config` VALUES ('19', 'BeianUrl', 'basic', 'string', 'http://www.miitbeian.gov.cn', '备案查询链接', '2', '2018-07-17 17:30:39', '0', '2018-07-17 17:31:22', null);

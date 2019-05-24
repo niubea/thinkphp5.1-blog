@@ -45,7 +45,7 @@ class Url extends Dispatch
             $url = $bind . ('.' != substr($bind, -1) ? $depr : '') . ltrim($url, $depr);
         }
 
-        list($path, $var) = $this->parseUrlPath($url);
+        list($path, $var) = $this->rule->parseUrlPath($url);
         if (empty($path)) {
             return [null, null, null];
         }
@@ -58,11 +58,10 @@ class Url extends Dispatch
         } else {
             // 解析控制器
             $controller = !empty($path) ? array_shift($path) : null;
+        }
 
-            //修复没有开启强制路由的情况下可能的getshell漏洞
-            if ($controller && !preg_match('/^[A-Za-z](\w|\.)*$/', $controller)) {
-                throw new HttpException(404, 'controller not exists:' . $controller);
-            }
+        if ($controller && !preg_match('/^[A-Za-z][\w|\.]*$/', $controller)) {
+            throw new HttpException(404, 'controller not exists:' . $controller);
         }
 
         // 解析操作
@@ -121,7 +120,9 @@ class Url extends Dispatch
 
         $host = $this->request->host(true);
 
-        if ($this->rule->getRouter()->getName($name, $host) || $this->rule->getRouter()->getName($name2, $host)) {
+        $method = $this->request->method();
+
+        if ($this->rule->getRouter()->getName($name, $host, $method) || $this->rule->getRouter()->getName($name2, $host, $method)) {
             return true;
         }
 
@@ -165,34 +166,4 @@ class Url extends Dispatch
         return $controller;
     }
 
-    /**
-     * 解析URL的pathinfo参数和变量
-     * @access private
-     * @param  string    $url URL地址
-     * @return array
-     */
-    private function parseUrlPath($url)
-    {
-        // 分隔符替换 确保路由定义使用统一的分隔符
-        $url = str_replace('|', '/', $url);
-        $url = trim($url, '/');
-        $var = [];
-
-        if (false !== strpos($url, '?')) {
-            // [模块/控制器/操作?]参数1=值1&参数2=值2...
-            $info = parse_url($url);
-            $path = explode('/', $info['path']);
-            parse_str($info['query'], $var);
-        } elseif (strpos($url, '/')) {
-            // [模块/控制器/操作]
-            $path = explode('/', $url);
-        } elseif (false !== strpos($url, '=')) {
-            // 参数1=值1&参数2=值2...
-            parse_str($url, $var);
-        } else {
-            $path = [$url];
-        }
-
-        return [$path, $var];
-    }
 }

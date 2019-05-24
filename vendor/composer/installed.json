@@ -1,17 +1,17 @@
 [
     {
         "name": "phpmailer/phpmailer",
-        "version": "v6.0.5",
-        "version_normalized": "6.0.5.0",
+        "version": "v6.0.7",
+        "version_normalized": "6.0.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/PHPMailer/PHPMailer.git",
-            "reference": "cb3ea134d4d3729e7857737d5f320cce9caf4d32"
+            "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/cb3ea134d4d3729e7857737d5f320cce9caf4d32",
-            "reference": "cb3ea134d4d3729e7857737d5f320cce9caf4d32",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/0c41a36d4508d470e376498c1c0c527aa36a2d59",
+            "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59",
             "shasum": ""
         },
         "require": {
@@ -36,7 +36,7 @@
             "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
             "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
         },
-        "time": "2018-03-27T13:49:45+00:00",
+        "time": "2019-02-01T15:04:28+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -69,17 +69,17 @@
     },
     {
         "name": "qiniu/php-sdk",
-        "version": "v7.2.6",
-        "version_normalized": "7.2.6.0",
+        "version": "v7.2.7",
+        "version_normalized": "7.2.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/qiniu/php-sdk.git",
-            "reference": "305ce1c1c0c71f794661fe45a96facf61ef96c5d"
+            "reference": "88d11a5857ebc6871204e9be6ceec54bf5f381e6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/qiniu/php-sdk/zipball/305ce1c1c0c71f794661fe45a96facf61ef96c5d",
-            "reference": "305ce1c1c0c71f794661fe45a96facf61ef96c5d",
+            "url": "https://api.github.com/repos/qiniu/php-sdk/zipball/88d11a5857ebc6871204e9be6ceec54bf5f381e6",
+            "reference": "88d11a5857ebc6871204e9be6ceec54bf5f381e6",
             "shasum": ""
         },
         "require": {
@@ -89,7 +89,7 @@
             "phpunit/phpunit": "~4.0",
             "squizlabs/php_codesniffer": "~2.3"
         },
-        "time": "2018-05-18T04:37:29+00:00",
+        "time": "2018-11-06T13:34:32+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -122,17 +122,17 @@
     },
     {
         "name": "topthink/framework",
-        "version": "v5.1.18",
-        "version_normalized": "5.1.18.0",
+        "version": "v5.1.37",
+        "version_normalized": "5.1.37.0",
         "source": {
             "type": "git",
             "url": "https://github.com/top-think/framework.git",
-            "reference": "833fcaf0f29f23bdceaae655f64d10c18b9bf562"
+            "reference": "c434854cbb5e680ecaf4c7191ddb7e672059d286"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/top-think/framework/zipball/833fcaf0f29f23bdceaae655f64d10c18b9bf562",
-            "reference": "833fcaf0f29f23bdceaae655f64d10c18b9bf562",
+            "url": "https://api.github.com/repos/top-think/framework/zipball/c434854cbb5e680ecaf4c7191ddb7e672059d286",
+            "reference": "c434854cbb5e680ecaf4c7191ddb7e672059d286",
             "shasum": ""
         },
         "require": {
@@ -148,7 +148,7 @@
             "sebastian/phpcpd": "2.*",
             "squizlabs/php_codesniffer": "2.*"
         },
-        "time": "2018-07-02T05:29:17+00:00",
+        "time": "2019-05-24T03:04:09+00:00",
         "type": "think-framework",
         "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",

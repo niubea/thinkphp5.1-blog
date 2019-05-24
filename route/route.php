@@ -13,7 +13,7 @@
 Route::domain('download.pollylee.cn', 'download');
 
 //博客平台地址
-Route::domain('blog.pollylee.cn', 'blog');
+Route::domain('cztdoc.pollylee.cn', 'blog');
 
 //刷新缓存地址
 Route::get('cache/clean/:password', 'cache/clean/index');

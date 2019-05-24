@@ -11,14 +11,14 @@
     <blockquote id="searchBlock" class="layui-elem-quote quoteBox">
 
         <div class="layui-form-item layui-inline">
-            <label class="layui-form-label-tpadmin">菜单名称</label>
+            <label class="layui-form-label-liboblog">菜单名称</label>
             <div class="layui-input-inline">
                 <input type="text" id="title" class="layui-input" placeholder="请输入菜单名称"/>
             </div>
         </div>
 
         <div class="layui-form-item layui-inline">
-            <label class="layui-form-label-tpadmin">菜单状态</label>
+            <label class="layui-form-label-liboblog">菜单状态</label>
             <div class="layui-input-inline">
                 <select id="status" lay-filter="status">
                     <option value="">请选择菜单状态</option>
@@ -30,14 +30,14 @@
         </div>
 
         <div class="layui-form-item layui-inline">
-            <label class="layui-form-label-tpadmin">菜单链接</label>
+            <label class="layui-form-label-liboblog">菜单链接</label>
             <div class="layui-input-inline">
                 <input type="text" id="href" class="layui-input href" placeholder="请输入菜单链接"/>
             </div>
         </div>
 
         <div class="layui-form-item layui-inline">
-            <label class="layui-form-label-tpadmin">创建时间</label>
+            <label class="layui-form-label-liboblog">创建时间</label>
             <div class="layui-input-inline">
                 <input type="text" id="create_at" class="layui-input" id="create_at" placeholder="请选择创建时间">
             </div>
@@ -80,7 +80,7 @@
         {{# if (d.is_add) { }}
         <a class="layui-btn layui-btn-xs" value="{{d.id}}" data-open='{:url("$thisClass/add")}?pid={{d.id}}' data-title="添加菜单">添加下级</a>
         {{# } else { }}
-        <a class="layui-btn layui-btn-xs color-tpadmin-gray" value="{{d.id}}">添加下级</a>
+        <a class="layui-btn layui-btn-xs color-liboblog-gray" value="{{d.id}}">添加下级</a>
         {{# } }}
 
         {/if}

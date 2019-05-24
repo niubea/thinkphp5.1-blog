@@ -11,21 +11,21 @@
     <blockquote id="searchBlock" class="layui-elem-quote quoteBox">
 
         <div class="layui-form-item layui-inline">
-            <label class="layui-form-label-tpadmin">文章标题</label>
+            <label class="layui-form-label-liboblog">文章标题</label>
             <div class="layui-input-inline">
                 <input type="text" id="title" class="layui-input selectBlock" placeholder="请输入文章标题"/>
             </div>
         </div>
 
         <div class="layui-form-item layui-inline">
-            <label class="layui-form-label-tpadmin">评论信息</label>
+            <label class="layui-form-label-liboblog">评论信息</label>
             <div class="layui-input-inline">
                 <input type="text" id="content" class="layui-input selectBlock" placeholder="请输入评论信息"/>
             </div>
         </div>
 
         <div class="layui-form-item layui-inline">
-            <label class="layui-form-label-tpadmin">创建时间</label>
+            <label class="layui-form-label-liboblog">创建时间</label>
             <div class="layui-input-inline">
                 <input type="text" id="create_at" class="layui-input " placeholder="请选择创建时间">
             </div>
@@ -51,7 +51,7 @@
     <!--表单模板绑定--开始-->
     <script type="text/html" id="bindMemberInfo">
         <div>
-            <span>{{d.nickname}}</span> <a class="layui-btn layui-btn-xs color-tpadmin-desc" data-open='{:url("@admin/blog.member/detail")}?id={{d.member_id}}' data-title="查看会员信息" data-width="1000px" data-height="450px">{{d.username}}</a>
+            <span>{{d.nickname}}</span> <a class="layui-btn layui-btn-xs color-liboblog-desc" data-open='{:url("@admin/blog.member/detail")}?id={{d.member_id}}' data-title="查看会员信息" data-width="1000px" data-height="450px">{{d.username}}</a>
         </div>
     </script>
 

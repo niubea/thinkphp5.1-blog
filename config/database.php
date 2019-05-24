@@ -13,13 +13,13 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '127.0.0.1',
+    'hostname'        => '47.92.131.96',
     // 数据库名
-    'database'        => 'liboBlog',
+    'database'        => 'cztdoc.pollylee.cn',
     // 用户名
-    'username'        => 'root',
+    'username'        => 'cztdoc.pollylee.cn',
     // 密码
-    'password'        => 'root',
+    'password'        => 'rFwiRC5NpX@3tx#z',
     // 端口
     'hostport'        => '3306',
     // 连接dsn

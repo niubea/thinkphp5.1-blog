@@ -25,7 +25,7 @@ class Index extends Controller {
      */
     public function index() {
         //数据初始化
-        list($this->nav, $this->title) = ['index', 'tpAdmin - 基于ThinkPHP5.1和Layui的快速后台开发框架 '];
+        list($this->nav, $this->title) = ['index', 'liboBlog - 基于ThinkPHP5.1和Layui的快速后台开发框架 '];
         //数据渲染
         $basic_data = [
             'title'        => $this->title,
