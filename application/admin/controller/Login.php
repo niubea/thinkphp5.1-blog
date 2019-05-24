@@ -41,7 +41,7 @@ class Login extends Controller {
 
             //基础数据
             $basic_data = [
-                'title' => '久久PHP社区后台登录',
+                'title' => '逍遥PHP社区后台登录',
                 'data'  => '',
             ];
             $this->assign($basic_data);
@@ -85,7 +85,7 @@ class Login extends Controller {
 
             //基础数据
             $basic_data = [
-                'title' => '久久PHP社区后台登录',
+                'title' => '逍遥PHP社区后台登录',
                 'data'  => '',
             ];
             $this->assign($basic_data);

@@ -40,7 +40,7 @@ class Login extends BlogController {
         if (!$this->request->isPost()) {
             isset($_SERVER['HTTP_REFERER']) && session('lastLink', $_SERVER['HTTP_REFERER']);
             $basic_data = [
-                'title' => '登录||久久PHP社区',
+                'title' => '登录||逍遥PHP社区',
             ];
             return $this->fetch('index_open', $basic_data);
         } else {
@@ -74,7 +74,7 @@ class Login extends BlogController {
         if (!$this->request->isPost()) {
             //基础数据
             $basic_data = [
-                'title' => '注册||久久PHP社区',
+                'title' => '注册||逍遥PHP社区',
             ];
             return $this->fetch('', $basic_data);
         } else {
@@ -101,7 +101,7 @@ class Login extends BlogController {
 
             //基础数据
             $basic_data = [
-                'title' => '久久PHP社区登录',
+                'title' => '逍遥PHP社区登录',
                 'data'  => '',
             ];
             $this->assign($basic_data);

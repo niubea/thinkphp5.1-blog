@@ -555,23 +555,23 @@ CREATE TABLE `system_config` (
 -- Records of system_config
 -- ----------------------------
 INSERT INTO `system_config` VALUES ('1', 'ManageName', 'basic', 'string', 'tpAdmin管理系统', '后台名称', '0', '2018-07-17 17:27:27', '0', '2018-07-17 22:10:33', null);
-INSERT INTO `system_config` VALUES ('2', 'Beian', 'basic', 'string', '粤ICP备18074801号-1', '备案号', '4', '2018-07-17 17:27:27', '0', '2018-07-17 22:10:39', null);
-INSERT INTO `system_config` VALUES ('18', 'FooterName', 'basic', 'string', 'Copyright © 2018-2019 九九PHP社区', '底部网站标识', '5', '2018-07-17 17:27:27', '0', '2018-07-17 18:40:16', null);
+INSERT INTO `system_config` VALUES ('2', 'Beian', 'basic', 'string', '粤ICP备19015591号-1', '备案号', '4', '2018-07-17 17:27:27', '0', '2018-07-17 22:10:39', null);
+INSERT INTO `system_config` VALUES ('18', 'FooterName', 'basic', 'string', 'Copyright © 2018-2019 www.pollylee.cn', '底部网站标识', '5', '2018-07-17 17:27:27', '0', '2018-07-17 18:40:16', null);
 INSERT INTO `system_config` VALUES ('19', 'BeianUrl', 'basic', 'string', 'http://www.miitbeian.gov.cn', '备案查询链接', '2', '2018-07-17 17:30:39', '0', '2018-07-17 17:31:22', null);
 INSERT INTO `system_config` VALUES ('20', 'HomeUrl', 'basic', 'string', 'https://www.pollylee.cn', '网站首页', '0', '2018-07-17 18:45:59', '0', '2018-07-17 18:46:12', null);
 INSERT INTO `system_config` VALUES ('21', 'VercodeType', 'basic', 'tinyint', '0', '验证码登录开关（0：不开启，1：开启）', '3', '2018-07-17 21:52:00', '0', '2018-07-18 02:38:10', null);
 INSERT INTO `system_config` VALUES ('32', 'Describe', 'basic', 'string', 'RBAC后台权限控制系统', '网站描述', '9', '2018-07-30 23:01:34', '0', null, null);
 INSERT INTO `system_config` VALUES ('33', 'Author', 'basic', 'string', 'Libo', '作者', '15', '2018-07-30 23:02:41', '0', null, null);
 INSERT INTO `system_config` VALUES ('34', 'Email', 'basic', 'string', 'libo@usa.com', '联系邮箱', '8', '2018-07-30 23:03:15', '0', null, null);
-INSERT INTO `system_config` VALUES ('35', 'BlogFooterName', 'basic', 'string', 'Copyright © 2018-2019 九九PHP社区', '博客底部', '0', '2018-08-13 00:32:50', '0', null, null);
+INSERT INTO `system_config` VALUES ('35', 'BlogFooterName', 'basic', 'string', 'Copyright © 2018-2019 www.pollylee.cn', '博客底部', '0', '2018-08-13 00:32:50', '0', null, null);
 INSERT INTO `system_config` VALUES ('36', 'MailHost', 'mail', 'string', 'smtp.163.com', '发送方的SMTP服务器地址', '0', '2018-08-31 15:39:04', '0', null, null);
 INSERT INTO `system_config` VALUES ('37', 'MailUsername', 'mail', 'string', '', '发送方的QQ邮箱用户名', '0', '2018-08-31 15:39:43', '0', null, null);
 INSERT INTO `system_config` VALUES ('38', 'MailPassword', 'mail', 'string', '', '第三方授权登录码', '0', '2018-08-31 15:39:53', '0', null, null);
-INSERT INTO `system_config` VALUES ('39', 'MailNickname', 'mail', 'string', '久久PHP社区', '设置发件人昵称', '0', '2018-08-31 15:40:44', '0', null, null);
-INSERT INTO `system_config` VALUES ('40', 'MailReplyTo', 'mail', 'string', 'www99php@163.com', '回复邮件地址', '0', '2018-08-31 15:41:03', '0', null, null);
+INSERT INTO `system_config` VALUES ('39', 'MailNickname', 'mail', 'string', '逍遥PHP社区', '设置发件人昵称', '0', '2018-08-31 15:40:44', '0', null, null);
+INSERT INTO `system_config` VALUES ('40', 'MailReplyTo', 'mail', 'string', 'libo@usa.com', '回复邮件地址', '0', '2018-08-31 15:41:03', '0', null, null);
 INSERT INTO `system_config` VALUES ('41', 'AccessKeyId', 'sms', 'string', '', '阿里大于公钥', '0', '2018-08-31 23:58:34', '0', null, null);
 INSERT INTO `system_config` VALUES ('42', 'AccessKeySecret', 'sms', 'string', '', '阿里大鱼私钥', '0', '2018-08-31 23:58:45', '0', null, null);
-INSERT INTO `system_config` VALUES ('43', 'SignName', 'sms', 'string', '久久PHP', '短信注册模板', '0', '2018-09-01 00:08:55', '0', null, null);
+INSERT INTO `system_config` VALUES ('43', 'SignName', 'sms', 'string', '逍遥PHP', '短信注册模板', '0', '2018-09-01 00:08:55', '0', null, null);
 INSERT INTO `system_config` VALUES ('44', 'CodeTime', 'code', 'int', '60', '验证码发送间隔时间', '0', '2018-09-04 18:03:52', '0', null, null);
 INSERT INTO `system_config` VALUES ('45', 'CodeDieTime', 'code', 'int', '300', '验证码有效期', '0', '2018-09-04 18:17:26', '0', null, null);
 INSERT INTO `system_config` VALUES ('46', 'FileType', 'file', 'int', '1', '文件保存方法（1：本地，2：七牛云）', '0', '2018-09-17 11:44:12', '0', null, null);

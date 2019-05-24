@@ -22,7 +22,7 @@
                     </li>
                     <li class='info'>
                         <p><span>账号  </span>{if !empty($member_info.username)}已绑定{else/}<span class="layui-red">未绑定</span>{/if}</p>
-                        <p>可用账号加密码登录久久PHP社区</p>
+                        <p>可用账号加密码登录逍遥PHP社区</p>
                     </li>
                     <li class='updata'>
                         <a href='javascript:;' class='layui-btn layui-btn-radius layui-bg-gray' data-title="{if !empty($member_info.username)}更改{else/}绑定{/if}账号" data-open="{:url('@blog/setting/form_username')}" data-height="300px" data-width="500px">{if !empty($member_info.username)}更改{else/}绑定{/if}</a>
@@ -58,7 +58,7 @@
                     </li>
                     <li class='info'>
                         <p><span>密码  </span>{if !empty($member_info.password)}已绑定{else/}<span class="layui-red">未绑定</span>{/if}</p>
-                        <p>可用账号加密码登录久久PHP社区</p>
+                        <p>可用账号加密码登录逍遥PHP社区</p>
                     </li>
                     <li class='updata'>
                         <a href='javascript:;' class='layui-btn layui-btn-radius layui-bg-gray' onclick="set_pwd()">{if !empty($member_info.password)}更改{else/}绑定{/if}</a>
